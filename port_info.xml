@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ports>
+    <port number="21">
+        <service>ftp</service>
+        <version>3.0.5</version>
+        <state>open</state>
+    </port>
+
+    <port number="22">
+        <service>ssh</service>
+        <version>9.6p1 Ubuntu 3ubuntu13.19</version>
+        <state>open</state>
+    </port>
+
+    <port number="80">
+        <service>http</service>
+        <version>1.24.0</version>
+        <state>open</state>
+    </port>
+
+    <port number="3306">
+        <service>mysql</service>
+        <version></version>
+        <state>open</state>
+    </port>
+
+    <port number="8000">
+        <service>http</service>
+        <version>0.6</version>
+        <state>open</state>
+    </port>
+</ports>

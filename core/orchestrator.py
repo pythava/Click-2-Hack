@@ -6,12 +6,7 @@ def run_modules(target, scan_result):
 
     ports = list(scan_result.keys())
 
-    print(ports)
-
     for item in ports:
-        
-        service = scan_result[item]
-        print(service)
 
         if scan_result[item]["state"] != "open":
             continue
